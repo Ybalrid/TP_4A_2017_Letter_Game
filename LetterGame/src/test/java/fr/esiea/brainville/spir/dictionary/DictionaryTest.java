@@ -1,5 +1,6 @@
-package fr.esiea.unique.binome.name.dictionary;
+package fr.esiea.brainville.spir.dictionary;
 
+import fr.esiea.brainville.spir.dictionary.IDictionary;
 import org.junit.Before;
 import org.junit.Test;
 
