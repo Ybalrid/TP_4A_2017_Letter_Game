@@ -9,10 +9,23 @@ public class Game {
     public Game()
     {
         bag = new LetterBag();
+
+
+
     }
 
     public void run()
     {
+        System.out.println("just to see, pick 50000 letters");
+        for(int i = 0; i < 50000; ++i)
+        {
+            System.out.print(bag.pick().getUpperChar());
+            System.out.print(' ');
+            if((1+i)%100 == 0)
+            {
+                System.out.print('\n');
+            }
+        }
 
     }
 }
