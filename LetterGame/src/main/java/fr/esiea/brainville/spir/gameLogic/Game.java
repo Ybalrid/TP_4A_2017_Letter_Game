@@ -1,17 +1,21 @@
 package fr.esiea.brainville.spir.gameLogic;
 
+import fr.esiea.brainville.spir.dictionary.Dictionary;
+
 /**
  * Created by Ybalrid on 24/01/2017.
  */
 public class Game {
     private LetterBag bag;
+    private Dictionary dictionary;
 
     public Game()
     {
+        System.out.println("Creating a LetterBag");
         bag = new LetterBag();
 
-
-
+        System.out.println("Creating a dictionary");
+        dictionary = new Dictionary();
     }
 
     public void run()
