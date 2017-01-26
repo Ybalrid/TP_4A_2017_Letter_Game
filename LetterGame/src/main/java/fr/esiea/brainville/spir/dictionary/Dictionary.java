@@ -60,9 +60,9 @@ public class Dictionary implements IDictionary {
         input = input.replace('ô', 'o');
         input = input.replace('ç', 'c');
         input = input.replace('ü', 'u');
-        input = input.replace('ñ', 'n');
+        input = input.replace('ñ', 'n'); //Spanish?
         input = input.replace('à', 'a');
-        input = input.replace('ã', 'a');
+        input = input.replace('ã', 'a'); //Protugese?
 
 
         return input;
