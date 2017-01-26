@@ -54,10 +54,14 @@ public class DictionaryTest {
     public final boolean stringIsOnlyAscii(String str)
     {
         //System.out.println("Testing " + str +" for ASCII");
+
+        //For each char of string
         for(int i = 0; i < str.length(); i++)
         {
+            //Check for the char to be within the ascii lowercase range
             if(str.charAt(i) > 122 || str.charAt(i) < 97)
             {
+                //Print an error and return false
                 System.out.println("Character " + str.charAt(i) + " in " + str + " is not ASCII");
                 return false;
             }
